@@ -1,14 +1,13 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import UsecallbackExample1 from './UseCallbackExample1'
-
+import { UsecallbackExample1 } from './UsecallbackExample1'
 
 const DisplayUsecallback = () => {
   return (
     <div>
-        <Routes>
-            <Route path='usecallbackexample1' element={<UsecallbackExample1/>}/>
-        </Routes>
+       <Routes>
+          <Route path='usecallbackexample1' element={<UsecallbackExample1/>} />
+        </Routes> 
     </div>
   )
 }
